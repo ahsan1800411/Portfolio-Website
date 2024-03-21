@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export const Main = () => {
   return (
@@ -16,11 +16,12 @@ export const Main = () => {
           </h1>
           <h1 className='py-4 text-gray-700'>A Full-Stack Developer</h1>
           <p className='py-4 max-w-[70%] text-gray-600 m-auto font-semibold'>
-            I&apos;m a Full-Stack Developer with 2+ years of hands-on experience
+            I&apos;m a Full-Stack Developer with 4+ years of hands-on experience
             designing, developing, and implementing applications and solutions
-            using a range of technologies, libraries and frameworks. Seeking to
-            leverage broad development experience and hands-on technical
-            expertise in a challenging role as a Full-stack Developer.
+            from SaaS to ERP systems using a range of technologies, libraries
+            and frameworks. Seeking to leverage broad development experience and
+            hands-on technical expertise in a challenging role as a Full-stack
+            Developer.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

@@ -1,11 +1,10 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div id='home' className='w-full h-[50%] pt-60 text-center'>
       <div className='max-w-[1240px] w-full h-full flex justify-center items-center p-2 mx-auto'>
         <div>
           <p className='text-sm font-semibold tracking-widest text-gray-600 uppercase'>
@@ -16,12 +15,14 @@ export const Main = () => {
           </h1>
           <h1 className='py-4 text-gray-700'>A Full-Stack Developer</h1>
           <p className='py-4 max-w-[70%] text-gray-600 m-auto font-semibold'>
-            I&apos;m a Full-Stack Developer with 4+ years of hands-on experience
-            designing, developing, and implementing applications and solutions
-            from SaaS to ERP systems using a range of technologies, libraries
-            and frameworks. Seeking to leverage broad development experience and
-            hands-on technical expertise in a challenging role as a Full-stack
-            Developer.
+            Software Engineer helping SaaS startups scale from{' '}
+            <span className='text-[#5651e5] text-xl font-bold'>
+              0 to $3M+ ARR
+            </span>{' '}
+            with modern Full Stack Engineering, DevOps, and Cloud Architecture.
+            <span className='text-[#5651e5] text-xl font-bold'> 4+ YOE </span>
+            building high-performing platforms used globally across real estate,
+            retail, and enterprise clients.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -52,9 +53,6 @@ export const Main = () => {
                 <AiOutlineMail color='black' />
               </div>
             </a>
-            <div className='p-6 duration-500 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-              <BsFillPersonLinesFill color='black' />
-            </div>
           </div>
         </div>
       </div>

@@ -1,12 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import ContactImg from '../public/projects/contact.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import Link from 'next/link';
+import ContactImg from '../public/projects/contact.jpg';
 
 export const Contact = () => {
   return (
@@ -65,10 +64,6 @@ export const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-
-                  <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
-                    <BsFillPersonLinesFill />
-                  </div>
                 </div>
               </div>
             </div>

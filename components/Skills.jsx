@@ -3,7 +3,7 @@ import Skill from './Skill';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full p-2 lg:h-screen'>
+    <div id='skills' className='flex items-center w-full  py-24 md:h-[50%] '>
       <div className='max-w=[1240px] h-full flex flex-col justify-center mx-auto'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills

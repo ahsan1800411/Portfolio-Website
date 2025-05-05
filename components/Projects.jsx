@@ -1,9 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Project1 from '../public/projects/project1.jpg';
-import Project2 from '../public/projects/project2.jpg';
-import Project3 from '../public/projects/project3.png';
-import Project4 from '../public/projects/project4.jpg';
+import Project2 from '../public/projects/hello-here.png';
+import Project1 from '../public/projects/repairdesk.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,28 +15,16 @@ const Projects = () => {
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid gap-8 md:grid-cols-2'>
           <ProjectItem
-            title='Jobify'
-            url='/jobify'
-            skill='MERN'
+            title='RepairDesk - POS SaaS for Mobile Repair Shops'
+            url='/repairdesk'
+            skill='$3M+ ARR'
             image={Project1}
           />
           <ProjectItem
-            title='Avenue Realty App'
-            url='/avenue'
+            title='Hello Here - SaaS Platform for Real Estate Agents'
+            url='/hello-here'
             image={Project2}
-            skill='NESTJS'
-          />
-          <ProjectItem
-            title='Crowdly'
-            url='/crowdly'
-            skill='GraphQL'
-            image={Project3}
-          />
-          <ProjectItem
-            title='EShoppers'
-            url='/eshoppers'
-            skill='MERN'
-            image={Project4}
+            skill='$2M+ ARR'
           />
         </div>
       </div>

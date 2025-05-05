@@ -1,11 +1,11 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 import MyPic from '../public/projects/my.jpg';
 
 const About = () => {
   return (
-    <div id='about' className='flex items-center w-full p-2 py-16 md:h-screen '>
+    <div id='about' className='flex items-center m-auto p-2 py-48 md:h-[50%] '>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-6'>
         <div className='col-span-2'>
           <p className='uppercase text-xl text-[#5651e5] tracking-widest'>
@@ -16,8 +16,9 @@ const About = () => {
             So glad you asked! This guy&apos;s name is Ahsan Mumtaz and He is a
             full-stack developer. He went to University of Education and
             graduated with a Information Technology degree. He is comfortable
-            with using TypeScript, React, Redux, GraphQL, Prisma, Apollo, Node,
-            Express, MongoDB, PostgreSQL, MySQL, Docker and Kubernetes.
+            with using TypeScript, React, Vue.js Redux, GraphQL, Prisma, Apollo,
+            Node, Nest.js Express, MongoDB, PostgreSQL, MySQL, Docker, AWS,
+            Azure and Kubernetes.
           </p>
           <p className='py-2 font-semibold text-gray-600'>
             Aside from coding, Ahsan also loves to play cricket, basketball, and

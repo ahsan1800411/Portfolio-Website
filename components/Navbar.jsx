@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Logo from '../public/projects/log.jpg';
 
 export default function Navbar() {
@@ -17,12 +17,7 @@ export default function Navbar() {
   const router = useRouter();
 
   useEffect(() => {
-    if (
-      router.asPath === '/jobify' ||
-      router.asPath === '/avenue' ||
-      router.asPath === '/eshoppers' ||
-      router.asPath === '/crowdly'
-    ) {
+    if (router.asPath === '/repairdesk' || router.asPath === '/hello-here') {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {
